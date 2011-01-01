@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* facemapAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 697}";
+			sepNavWindowFrame = "{{155, 131}, {750, 558}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* facemapAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1313}}";
+			sepNavSelRange = "{2847, 0}";
+			sepNavVisRange = "{0, 1046}";
+			sepNavWindowFrame = "{{132, 152}, {750, 558}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* facemap */ = {
+		activeExec = 0;
+		executables = (
+			FBE2F4B112CAE78B005B8507 /* facemap */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* facemapViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 339}";
+			sepNavWindowFrame = "{{178, 110}, {750, 558}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* facemapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1300}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{142, 808}";
+			sepNavWindowFrame = "{{224, 68}, {750, 558}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FBE2F4B112CAE78B005B8507 /* facemap */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* facemap */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* facemap */,
+		);
+		codeSenseManager = FBE2F4C012CAE7EA005B8507 /* Code sense */;
+		executables = (
+			FBE2F4B112CAE78B005B8507 /* facemap */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					748,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 315323709;
+			PBXWorkspaceStateSaveDate = 315323709;
+		};
+		perUserProjectItems = {
+			FB63F9B912CB753600008E4A /* PBXBookmark */ = FB63F9B912CB753600008E4A /* PBXBookmark */;
+			FB63F9BB12CB753600008E4A /* PBXTextBookmark */ = FB63F9BB12CB753600008E4A /* PBXTextBookmark */;
+			FB63FA0B12CBAEAD00008E4A /* PBXBookmark */ = FB63FA0B12CBAEAD00008E4A /* PBXBookmark */;
+			FB63FA1312CBB29300008E4A /* PBXTextBookmark */ = FB63FA1312CBB29300008E4A /* PBXTextBookmark */;
+			FB63FA1812CBB29300008E4A /* PBXTextBookmark */ = FB63FA1812CBB29300008E4A /* PBXTextBookmark */;
+			FB63FA1B12CBB29300008E4A /* PBXTextBookmark */ = FB63FA1B12CBB29300008E4A /* PBXTextBookmark */;
+			FB63FA1C12CBB29300008E4A /* PBXTextBookmark */ = FB63FA1C12CBB29300008E4A /* PBXTextBookmark */;
+		};
+		sourceControlManager = FBE2F4BF12CAE7EA005B8507 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4B18788812C8F64B005F2260 /* myDepartmentViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 396}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRange = "{0, 295}";
+			sepNavWindowFrame = "{{193, 173}, {750, 558}}";
+		};
+	};
+	4B18788912C8F64B005F2260 /* myDepartmentViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{5018, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5069, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{5119, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 5839}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {2147, 2704}}";
+			sepNavSelRange = "{3258, 0}";
+			sepNavVisRange = "{2004, 1441}";
+			sepNavWindowFrame = "{{371, 153}, {750, 558}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* facemap-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{461, 78}, {750, 558}}";
+		};
+	};
+	FB63F9B912CB753600008E4A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FB63F8EA12CB55E000008E4A /* facemap.png */;
+	};
+	FB63F9BB12CB753600008E4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B18788812C8F64B005F2260 /* myDepartmentViewController.h */;
+		name = "myDepartmentViewController.h: 13";
+		rLen = 0;
+		rLoc = 241;
+		rType = 0;
+		vrLen = 295;
+		vrLoc = 0;
+	};
+	FB63FA0B12CBAEAD00008E4A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1D3623250D0F684500981E51 /* facemapAppDelegate.m */;
+	};
+	FB63FA1312CBB29300008E4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B18788812C8F64B005F2260 /* myDepartmentViewController.h */;
+		name = "myDepartmentViewController.h: 12";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 295;
+		vrLoc = 0;
+	};
+	FB63FA1812CBB29300008E4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* facemapAppDelegate.m */;
+		name = "facemapAppDelegate.m: 83";
+		rLen = 0;
+		rLoc = 2847;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 0;
+	};
+	FB63FA1B12CBB29300008E4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* facemapViewController.m */;
+		name = "facemapViewController.m: 74";
+		rLen = 0;
+		rLoc = 1959;
+		rType = 0;
+		vrLen = 792;
+		vrLoc = 1811;
+	};
+	FB63FA1C12CBB29300008E4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* facemapViewController.m */;
+		name = "facemapViewController.m: 7";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 142;
+	};
+	FBE2F4B112CAE78B005B8507 /* facemap */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = facemap;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FBE2F4BF12CAE7EA005B8507 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FBE2F4C012CAE7EA005B8507 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

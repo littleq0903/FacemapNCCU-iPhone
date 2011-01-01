@@ -1,0 +1,116 @@
+Tfacemap
+v7
+r1
+cCheck dependencies
+
+N/Users/zerodie/Desktop/facemap/Classes/facemap.png
+c000000004D18C1D50000000000040148
+t1293468117
+s262472
+
+N/Users/zerodie/Desktop/facemap/Classes/myDepartmentViewController.xib
+c000000004D18BECB0000000000001C99
+t1293467339
+s7321
+
+N/Users/zerodie/Desktop/facemap/Classes/myclass.gif
+c000000004D18CAFF000000000002AD55
+t1293470463
+s175445
+
+N/Users/zerodie/Desktop/facemap/Classes/school.jpg
+c000000004D18CE9C0000000000002F46
+t1293471388
+s12102
+
+N/Users/zerodie/Desktop/facemap/MainWindow.xib
+c000000004D189FD60000000000004E29
+t1293459414
+s20009
+
+N/Users/zerodie/Desktop/facemap/allDepartmentsViewController.xib
+c000000004D18E90000000000000041CB
+t1293478144
+s16843
+
+N/Users/zerodie/Desktop/facemap/build/Debug/facemap.app
+t2
+s0
+
+N/Users/zerodie/Desktop/facemap/build/Debug/facemap.app/Contents/Info.plist
+t2
+s0
+
+N/Users/zerodie/Desktop/facemap/build/Debug/facemap.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/zerodie/Desktop/facemap/build/Debug/facemap.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/zerodie/Desktop/facemap/build/Debug/facemap.app/Contents/Resources/allDepartmentsViewController.nib
+t2
+s0
+
+N/Users/zerodie/Desktop/facemap/build/Debug/facemap.app/Contents/Resources/facemap.png
+t2
+s0
+
+N/Users/zerodie/Desktop/facemap/build/Debug/facemap.app/Contents/Resources/facemapViewController.nib
+t2
+s0
+
+N/Users/zerodie/Desktop/facemap/build/Debug/facemap.app/Contents/Resources/myDepartmentViewController.nib
+t2
+s0
+
+N/Users/zerodie/Desktop/facemap/build/Debug/facemap.app/Contents/Resources/myclass.gif
+t2
+s0
+
+N/Users/zerodie/Desktop/facemap/build/Debug/facemap.app/Contents/Resources/school.jpg
+t2
+s0
+
+N/Users/zerodie/Desktop/facemap/facemapViewController.xib
+c000000004D18DF9C00000000000075FE
+t1293475740
+s30206
+
+Nfacemap-Info.plist
+c000000004D189FD6000000000000038D
+t1293459414
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315287443#315287443#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.1'1(4@58"error: There is no SDK with the name or path 'iphoneos4.1'315287443#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileXIB /Users/zerodie/Desktop/facemap/Classes/myDepartmentViewController.xib
+r0
+
+CCompileXIB /Users/zerodie/Desktop/facemap/MainWindow.xib
+r0
+
+CCompileXIB /Users/zerodie/Desktop/facemap/allDepartmentsViewController.xib
+r0
+
+CCompileXIB /Users/zerodie/Desktop/facemap/facemapViewController.xib
+r0
+
+CCpResource build/Debug/facemap.app/Contents/Resources/facemap.png Classes/facemap.png
+r0
+
+CCpResource build/Debug/facemap.app/Contents/Resources/myclass.gif Classes/myclass.gif
+r0
+
+CCpResource build/Debug/facemap.app/Contents/Resources/school.jpg Classes/school.jpg
+r0
+
+CProcessInfoPlistFile /Users/zerodie/Desktop/facemap/build/Debug/facemap.app/Contents/Info.plist facemap-Info.plist
+r0
+
+CTouch /Users/zerodie/Desktop/facemap/build/Debug/facemap.app
+r0
+
