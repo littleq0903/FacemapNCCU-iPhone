@@ -1,26 +1,16 @@
 //
-//  myDepartmentViewController.m
+//  allDeparts.m
 //  facemap
 //
-//  Created by nccucs on 2010/12/28.
-//  Copyright 2010 __chia__. All rights reserved.
+//  Created by 李嘉玲 on 2011/1/3.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "myDepartmentViewController.h"
-#import "allDepartsViewController.h"
-#import "fbWebView.h"
+#import "allDeparts.h"
 
-@implementation myDepartmentViewController
 
-- (id)initWithDepart:(NSString *)department
-{
-    if (self = [self initWithNibName:@"myDepartmentViewController" bundle:nil]) {
-        // Custom initialization
-        self.title = department;
-        //self.text = someText;
-    }
-    return self;
-}
+@implementation allDeparts
+
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -57,7 +47,7 @@
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
+    // Return YES for supported orientations.
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 */
@@ -66,25 +56,21 @@
 #pragma mark -
 #pragma mark Table view data source
 
-
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 2; //student & professors
+    return <#number of sections#>;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 3;//return number of members
-	//return [sections objectAtIndex:section].numRows;
+    return <#number of rows in section#>;
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-	/*
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -93,31 +79,8 @@
     }
     
     // Configure the cell...
-    NSLog(@"cellForRowAtIndexPath");
+    
     return cell;
-	*/
-	static NSString *CellIdentifier = @"Cell";
-	 
-    NSArray *array = [[NSArray alloc] initWithObjects:[[NSString alloc] initWithString:@"111"],[[NSString alloc] initWithString:@"222"],[[NSString alloc] initWithString:@"333"],[[NSString alloc] initWithString:@"444"],[[NSString alloc] initWithString:@"555"],[[NSString alloc] initWithString:@"666"],nil];
-	
-	//@"123";
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-	if (cell == nil) {
-		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-	}
-	NSLog(@"hi i m tableview cell");
-	 // Configure the cell...
-	 //todo *td = [self.todos objectAtIndex:indexPath.row];
-	 //cell.textLabel.text = [NSString stringWithFormat:@"%@", td.timeToDo];
-	// if(indexPath==1)
-
-	[cell setText:[array objectAtIndex:indexPath.row]];
-	//cell.textLabel.text = @"text of cell";
-	 //cell.detailTextLabel.text = @"detailTextLabel";
-	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	 
-	 return cell;
-
 }
 
 
@@ -135,11 +98,11 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
+        // Delete the row from the data source.
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
     }   
 }
 */
@@ -166,41 +129,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
-	/*
-	allDepartsViewController *allDepartsVC = [[allDepartsViewController alloc] initWithDepart:@"李家玲"];
-    [self.navigationController pushViewController:allDepartsVC animated:NO];
-    [allDepartsVC release];
-	*/
-	NSString *user_name=[[tableView cellForRowAtIndexPath:indexPath] text];
-	
-	fbWebView *fbwb = [[fbWebView alloc] initWithName:user_name];
-    [self.navigationController pushViewController:fbwb animated:NO];
-    [fbwb release];
-	[user_name release];
-	NSLog(@"didSelect");
+    /*
+    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+    // ...
+    // Pass the selected object to the new view controller.
+    [self.navigationController pushViewController:detailViewController animated:YES];
+    [detailViewController release];
+    */
 }
 
-
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-	
-	NSString *sectionHeader = nil;
-	
-	if(section == 0) {
-		sectionHeader = @"學生";
-	}
-	if(section == 1) {
-		sectionHeader = @"教職員工";
-	}
-	
-	return sectionHeader;
-}
 
 #pragma mark -
 #pragma mark Memory management
@@ -209,7 +146,7 @@
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
-    // Relinquish ownership any cached data, images, etc that aren't in use.
+    // Relinquish ownership any cached data, images, etc. that aren't in use.
 }
 
 - (void)viewDidUnload {

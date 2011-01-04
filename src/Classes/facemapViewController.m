@@ -8,20 +8,23 @@
 
 #import "facemapViewController.h"
 #import "myDepartmentViewController.h"
-#import "allDepartmentsViewController.h"
+#import "allDepartsViewController.h"
+
 
 @implementation facemapViewController
 
+@synthesize myDepart;
+/*
 - (IBAction)randomChat:(id)sender
 {
     //random choose one to chat 
 	NSLog(@"randomChat");
 }
-
+*/
 
 -(IBAction) myDepart:(id)sender{
 
-	myDepartmentViewController *myDepartVC = [[myDepartmentViewController alloc] initWithDepart:@"Computer Science"];
+	myDepartmentViewController *myDepartVC = [[myDepartmentViewController alloc] initWithDepart:myDepart];
 	[self.navigationController pushViewController:myDepartVC animated:YES];
     [myDepartVC release];
 	
@@ -30,7 +33,12 @@
 
 -(IBAction) allDeparts:(id)sender;{
 
-	allDepartmentsViewController *allDepartsVC = [[allDepartmentsViewController alloc] initWithDepart:@"全校系所"];
+	/*
+	 allDepartmentsViewController *allDepartsVC = [[allDepartmentsViewController alloc] initWithDepart:@"全校系所"];
+    [self.navigationController pushViewController:allDepartsVC animated:NO];
+    [allDepartsVC release];
+	*/
+	allDepartsViewController *allDepartsVC = [[allDepartsViewController alloc] initWithDepart:@"全校系所"];
     [self.navigationController pushViewController:allDepartsVC animated:NO];
     [allDepartsVC release];
 	NSLog(@"allDeparts");	
@@ -44,7 +52,9 @@
         // Custom initialization
         self.title = @"FACEMAP";
     }
-    return self;
+    self.myDepart=@"CS";
+	return self;
+	
 }
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -93,6 +103,8 @@
 
 
 - (void)dealloc {
+	
+	//[myDepart release];
     [super dealloc];
 }
 

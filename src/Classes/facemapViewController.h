@@ -10,11 +10,13 @@
 
 @interface facemapViewController : UIViewController {
 
+	NSString *myDepart;//user's department
 }
 
--(IBAction) randomChat:(id)sender;
+//-(IBAction) randomChat:(id)sender;
 -(IBAction) myDepart:(id)sender;
 -(IBAction) allDeparts:(id)sender;
+@property (nonatomic, retain) NSString *myDepart;
 
 @end
 //test edit
