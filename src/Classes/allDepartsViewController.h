@@ -11,12 +11,13 @@
 
 @interface allDepartsViewController : UITableViewController {
 
-	NSArray *all_contentArray;//系所 in nccu 
-	NSArray *all_sectionArray;//院 in nccu
+	//NSArray *all_contentArray;//系所 in nccu 
+	//NSArray *all_sectionArray;//院 in nccu
+	NSMutableArray *listOfDeparts;
 }
 
-@property (nonatomic, retain) NSArray *all_contentArray;
-@property (nonatomic, retain) NSArray *all_sectionArray;
-
+//@property (nonatomic, retain) NSArray *all_contentArray;
+//@property (nonatomic, retain) NSArray *all_sectionArray;
+@property (nonatomic, retain) NSArray *listOfDeparts;
 
 @end

@@ -11,14 +11,34 @@
 #import "fbWebView.h"
 
 @implementation myDepartmentViewController
+@synthesize listOfMems;
+@synthesize Department;
 
+//還差forkey:Department
 - (id)initWithDepart:(NSString *)department
 {
     if (self = [self initWithNibName:@"myDepartmentViewController" bundle:nil]) {
         // Custom initialization
         self.title = department;
+		self.Department = department;
         //self.text = someText;
     }
+	
+	
+	listOfMems = [[NSMutableArray alloc] init];
+	
+	NSArray *stuArray = [[NSArray arrayWithObjects:@"李嘉玲", @"孫沒如",@"王蕈褶", nil] retain];
+    NSArray *teaArray = [[NSArray arrayWithObjects:@"chenk",@"ccc",@"Chao-Lin", nil] retain];
+	
+	NSDictionary *stuDict = [NSDictionary dictionaryWithObject:stuArray forKey:@"user"];
+	NSDictionary *teaDict = [NSDictionary dictionaryWithObject:teaArray forKey:@"user"];
+	
+	[listOfMems addObject:stuDict];
+	[listOfMems addObject:teaDict];
+	
+	
+	//NSDictionary *departMems= [NSDictionary dictionaryWithObject:listOfMems forKey:@"cs"]
+	
     return self;
 }
 
@@ -70,35 +90,25 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 2; //student & professors
+    return [listOfMems count]; //student & professors
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 3;//return number of members
+    NSDictionary *dictionary = [listOfMems objectAtIndex:section];
+	NSArray *array = [dictionary objectForKey:@"user"];
+	return [array count]; //return number of members
 	//return [sections objectAtIndex:section].numRows;
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	/*
-    static NSString *CellIdentifier = @"Cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-    }
-    
-    // Configure the cell...
-    NSLog(@"cellForRowAtIndexPath");
-    return cell;
-	*/
+
 	static NSString *CellIdentifier = @"Cell";
 	 
-    NSArray *array = [[NSArray alloc] initWithObjects:[[NSString alloc] initWithString:@"111"],[[NSString alloc] initWithString:@"222"],[[NSString alloc] initWithString:@"333"],[[NSString alloc] initWithString:@"444"],[[NSString alloc] initWithString:@"555"],[[NSString alloc] initWithString:@"666"],nil];
+    //NSArray *array = [[NSArray alloc] initWithObjects:[[NSString alloc] initWithString:@"111"],[[NSString alloc] initWithString:@"222"],[[NSString alloc] initWithString:@"333"],[[NSString alloc] initWithString:@"444"],[[NSString alloc] initWithString:@"555"],[[NSString alloc] initWithString:@"666"],nil];
 	
 	//@"123";
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -110,13 +120,19 @@
 	 //todo *td = [self.todos objectAtIndex:indexPath.row];
 	 //cell.textLabel.text = [NSString stringWithFormat:@"%@", td.timeToDo];
 	// if(indexPath==1)
-
+/*
 	[cell setText:[array objectAtIndex:indexPath.row]];
 	//cell.textLabel.text = @"text of cell";
 	 //cell.detailTextLabel.text = @"detailTextLabel";
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	 
-	 return cell;
+*/	 
+	NSDictionary *dictionary = [listOfMems objectAtIndex:indexPath.section];
+	NSArray *array = [dictionary objectForKey:@"user"];
+	NSString *cellValue = [array objectAtIndex:indexPath.row];
+	cell.text = cellValue;
+	
+	
+	return cell;
 
 }
 
@@ -184,6 +200,7 @@
     [self.navigationController pushViewController:fbwb animated:NO];
     [fbwb release];
 	[user_name release];
+	
 	NSLog(@"didSelect");
 }
 

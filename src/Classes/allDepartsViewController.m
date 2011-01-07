@@ -11,8 +11,9 @@
 
 @implementation allDepartsViewController
 
-@synthesize all_contentArray;
-@synthesize all_sectionArray;
+//@synthesize all_contentArray;
+//@synthesize all_sectionArray;
+@synthesize listOfDeparts;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -25,9 +26,23 @@
         //self.text = someText;
     }
 	
-	all_sectionArray = [[NSArray arrayWithObjects:@"理學院", @"外語學院",@"文學院",@"法學院", nil] retain];
-    all_contentArray = [[NSArray arrayWithObjects:@"資訊科學系", @"應用數學系", nil] retain];
+	
+	listOfDeparts = [[NSMutableArray alloc] init];
+	
+	NSArray *LiArray = [[NSArray arrayWithObjects:@"資訊科學系", @"應用數學系",@"心理系", nil] retain];
+    NSArray *FaArray = [[NSArray arrayWithObjects:@"法律系", nil] retain];
+	NSArray *WiArray = [[NSArray arrayWithObjects:@"日文系",@"韓文系",@"土語系", nil] retain];
+	
+	NSDictionary *LiDict = [NSDictionary dictionaryWithObject:LiArray forKey:@"Yuan"];
+	NSDictionary *FaDict = [NSDictionary dictionaryWithObject:FaArray forKey:@"Yuan"];
+	NSDictionary *WiDict = [NSDictionary dictionaryWithObject:WiArray forKey:@"Yuan"];
+	
+	[listOfDeparts addObject:LiDict];
+	[listOfDeparts addObject:FaDict];
+	[listOfDeparts addObject:WiDict];
+	
 	return self;
+	
 }
 
 /*
@@ -75,7 +90,9 @@
 	if(section == 1) {
 		sectionHeader = @"法學院";
 	}
-	
+	if(section==2){
+		sectionHeader = @"外語學院";
+	}
 	return sectionHeader;
 }
 
@@ -84,14 +101,18 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return [all_sectionArray count];
+    //return [all_sectionArray count];
+	return [listOfDeparts count];
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
 	//＊＊＊＊不同學院有不同系所個數
-    return [all_contentArray count];
+	NSDictionary *dictionary = [listOfDeparts objectAtIndex:section];
+	NSArray *array = [dictionary objectForKey:@"Yuan"];
+	return [array count];
+    //return [all_contentArray count];
 }
 
 
@@ -106,10 +127,14 @@
 	}
 	NSLog(@"hi i m tableview cell");
 
-	
+	/*
 	[cell setText:[all_contentArray objectAtIndex:indexPath.row]];
-	//cell.textLabel.text = @"text of cell";
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	*/
+	NSDictionary *dictionary = [listOfDeparts objectAtIndex:indexPath.section];
+	NSArray *array = [dictionary objectForKey:@"Yuan"];
+	NSString *cellValue = [array objectAtIndex:indexPath.row];
+	cell.text = cellValue;
 	
 	return cell;
 	
@@ -195,9 +220,10 @@
 
 
 - (void)dealloc {
-	[all_contentArray release];
-	[all_sectionArray release];
-    [super dealloc];
+//	[all_contentArray release];
+//	[all_sectionArray release];
+    [listOfDeparts release];
+	[super dealloc];
 }
 
 

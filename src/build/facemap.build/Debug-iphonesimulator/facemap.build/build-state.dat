@@ -1,0 +1,553 @@
+Tfacemap
+v7
+r0
+t316092346.332645
+cCheck dependencies
+cProcessInfoPlistFile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/Info.plist facemap-Info.plist
+cCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/MainWindow.xib
+cCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemapViewController.xib
+cCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.xib
+cCpResource build/Debug-iphonesimulator/facemap.app/myclass.gif Classes/myclass.gif
+cCpResource build/Debug-iphonesimulator/facemap.app/school.jpg Classes/school.jpg
+cCpResource build/Debug-iphonesimulator/facemap.app/facemap.png facemap.png
+cCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.xib
+cCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.xib
+cProcessPCH /var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch.gch facemap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/main.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemapAppDelegate.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemapViewController.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/myDepartmentViewController.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDepartsViewController.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/fbWebView.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap normal i386
+cGenerateDSYMFile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app.dSYM /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap
+cTouch /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/../allDepartmentsViewController.h
+c000000004D202C1D0000000000000126
+t1293954077
+s294
+i<UIKit/UIKit.h>
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/../allDepartmentsViewController.m
+c000000004D202C1D00000000000006BB
+t1293954077
+s1723
+i"allDepartmentsViewController.h"
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDeparts.h
+c000000004D2189D800000000000000DB
+t1294043608
+s219
+i<UIKit/UIKit.h>
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDeparts.m
+c000000004D2189D8000000000000112C
+t1294043608
+s4396
+i"allDeparts.h"
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDeparts.xib
+c000000004D2189D80000000000001C69
+t1294043608
+s7273
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.h
+c000000004D236862000000000000021E
+t1294166114
+s542
+i<UIKit/UIKit.h>
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m
+c000000004D23E5C40000000000001A86
+t1294198212
+s6790
+i"allDepartsViewController.h"
+i"myDepartmentViewController.h"
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.xib
+c000000004D218B600000000000001C93
+t1294044000
+s7315
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapAppDelegate.h
+c000000004D202C1D00000000000002B9
+t1293954077
+s697
+i<UIKit/UIKit.h>
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapAppDelegate.m
+c000000004D202C1D0000000000000C8C
+t1293954077
+s3212
+i"facemapAppDelegate.h"
+i"facemapViewController.h"
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapViewController.h
+c000000004D221DAE00000000000001BA
+t1294081454
+s442
+i<UIKit/UIKit.h>
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapViewController.m
+c000000004D221F5F0000000000000B50
+t1294081887
+s2896
+i"facemapViewController.h"
+i"myDepartmentViewController.h"
+i"allDepartsViewController.h"
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.h
+c000000004D21A0B400000000000000D4
+t1294049460
+s212
+i<UIKit/UIKit.h>
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.m
+c000000004D221F5F000000000000066D
+t1294081887
+s1645
+i"fbWebView.h"
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.xib
+c000000004D21A0DA0000000000004062
+t1294049498
+s16482
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.h
+c000000004D23750D00000000000001CC
+t1294169357
+s460
+i<UIKit/UIKit.h>
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m
+c000000004D2377080000000000001C78
+t1294169864
+s7288
+i"myDepartmentViewController.h"
+i"allDepartsViewController.h"
+i"fbWebView.h"
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.xib
+c000000004D202C1D0000000000001C99
+t1293954077
+s7321
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myclass.gif
+c000000004D202C1D000000000002AD55
+t1293954077
+s175445
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/school.jpg
+c000000004D202C1D0000000000002F46
+t1293954077
+s12102
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/MainWindow.xib
+c000000004D202C1D0000000000004E29
+t1293954077
+s20009
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/allDepartmentsViewController.h
+c000000004D202C1D0000000000000126
+t1293954077
+s294
+i<UIKit/UIKit.h>
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/allDepartmentsViewController.xib
+c000000004D202C1D00000000000041CB
+t1293954077
+s16843
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app
+t1294198213
+s476
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app.dSYM
+t1294198213
+s102
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/Info.plist
+t1293969222
+s628
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/MainWindow.nib
+t1293969225
+s1123
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/PkgInfo
+t1293969222
+s8
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/allDepartmentsViewController.nib
+t1293969226
+s1241
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/allDeparts.nib
+t2
+s0
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/allDepartsViewController.nib
+t1294044169
+s979
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap
+t1294198213
+s33200
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap.png
+t1293969226
+s262472
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemapViewController.nib
+t1294047920
+s2626
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/fbWebView.nib
+t1294049651
+s936
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/myDepartmentViewController.nib
+t1293969226
+s979
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/myclass.gif
+t1293969225
+s175445
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/school.jpg
+t1293969225
+s12102
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDepartmentsViewController.o
+t1293969229
+s35764
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDeparts.o
+t2
+s0
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDepartsViewController.o
+t1294198212
+s46160
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemap.LinkFileList
+c000000004D21A172000000000000034E
+t1294049650
+s846
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemapAppDelegate.o
+t1294081454
+s51148
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemapViewController.o
+t1294169358
+s40292
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/fbWebView.o
+t1294081887
+s35272
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/main.o
+t1293969229
+s6316
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/myDepartmentViewController.o
+t1294169865
+s46624
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemap.png
+c000000004D202C1D0000000000040148
+t1293954077
+s262472
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemapViewController.xib
+c000000004D219AAA0000000000006DD0
+t1294047914
+s28112
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemap_Prefix.pch
+c000000004D202C1D00000000000000B7
+t1293954077
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/main.m
+c000000004D202C1D0000000000000166
+t1293954077
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch.gch
+t1293969228
+s15211536
+
+Nfacemap-Info.plist
+c000000004D202C1D00000000000003D2
+t1293954077
+s978
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316092344#316092346#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDepartmentsViewController.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/../allDepartmentsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315662029.439754
+e315662029.540607
+r1
+xCompileC
+xbuild/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDepartmentsViewController.o
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/../allDepartmentsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/../allDepartmentsViewController.m315662029#315662029#0(0"0(0#0#86"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/../allDepartmentsViewController.m8604158272#2039"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-generated-files.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-own-target-headers.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-all-target-headers.hmap -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-project-headers.hmap -F/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/include -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources/i386 -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources -include /var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch -c /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/../allDepartmentsViewController.m -o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDepartmentsViewController.o0#
+
+CCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDeparts.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDeparts.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDepartsViewController.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315891012.831390
+e315891013.049479
+r1
+xCompileC
+xbuild/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDepartsViewController.o
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m: In function '-[allDepartsViewController tableView:cellForRowAtIndexPath:]':
+o/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m:137: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)
+o/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m: In function '-[allDepartsViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m:197: warning: 'text' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:193)
+lSLF07#2@87"Compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m315891012#315891013#0(890"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m: In function '-[allDepartsViewController tableView:cellForRowAtIndexPath:]':/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m:137: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m: In function '-[allDepartsViewController tableView:didSelectRowAtIndexPath:]':/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m:197: warning: 'text' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:193)2(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)315891012#157#289#0(6@79"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m315891012#137#0#137#0#33"'*' is deprecated (declared at *)0(22@190"'text' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:193)315891012#605#285#0(6@79"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m315891012#197#0#197#0#33"'*' is deprecated (declared at *)0(0#0#79"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m8623480192#2028"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-generated-files.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-own-target-headers.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-all-target-headers.hmap -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-project-headers.hmap -F/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/include -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources/i386 -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources -include /var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch -c /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.m -o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/allDepartsViewController.o0#
+
+CCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemapAppDelegate.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315774254.508380
+e315774254.659119
+r1
+xCompileC
+xbuild/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemapAppDelegate.o
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapAppDelegate.m315774254#315774255#0(0"0(0#0#73"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapAppDelegate.m8593666080#2016"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-generated-files.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-own-target-headers.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-all-target-headers.hmap -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-project-headers.hmap -F/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/include -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources/i386 -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources -include /var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch -c /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapAppDelegate.m -o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemapAppDelegate.o0#
+
+CCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemapViewController.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315862158.232628
+e315862158.387774
+r1
+xCompileC
+xbuild/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemapViewController.o
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapViewController.m315862158#315862158#0(0"0(0#0#76"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapViewController.m8616525920#2022"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-generated-files.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-own-target-headers.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-all-target-headers.hmap -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-project-headers.hmap -F/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/include -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources/i386 -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources -include /var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch -c /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/facemapViewController.m -o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemapViewController.o0#
+
+CCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/fbWebView.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315774687.654262
+e315774687.754178
+r1
+xCompileC
+xbuild/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/fbWebView.o
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.m315774687#315774688#0(0"0(0#0#64"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.m8599649248#1998"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-generated-files.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-own-target-headers.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-all-target-headers.hmap -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-project-headers.hmap -F/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/include -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources/i386 -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources -include /var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch -c /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.m -o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/fbWebView.o0#
+
+CCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/main.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315662029.069879
+e315662029.300694
+r1
+xCompileC
+xbuild/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/main.o
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/main.m315662029#315662029#0(0"0(0#0#51"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/main.m8611654944#1980"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-generated-files.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-own-target-headers.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-all-target-headers.hmap -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-project-headers.hmap -F/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/include -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources/i386 -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources -include /var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch -c /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/main.m -o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/main.o0#
+
+CCompileC build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/myDepartmentViewController.o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315862664.924420
+e315862665.750366
+r1
+xCompileC
+xbuild/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/myDepartmentViewController.o
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m: In function '-[myDepartmentViewController tableView:cellForRowAtIndexPath:]':
+o/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m:132: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)
+o/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m: In function '-[myDepartmentViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m:197: warning: 'text' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:193)
+lSLF07#2@89"Compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m315862664#315862665#0(902"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m: In function '-[myDepartmentViewController tableView:cellForRowAtIndexPath:]':/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m:132: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m: In function '-[myDepartmentViewController tableView:didSelectRowAtIndexPath:]':/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m:197: warning: 'text' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:193)2(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)315862665#161#291#0(6@81"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m315862664#132#0#132#0#33"'*' is deprecated (declared at *)0(22@190"'text' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:193)315862665#615#287#0(6@81"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m315862664#197#0#197#0#33"'*' is deprecated (declared at *)0(0#0#81"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m8618493376#2032"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-generated-files.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-own-target-headers.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-all-target-headers.hmap -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-project-headers.hmap -F/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/include -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources/i386 -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources -include /var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch -c /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.m -o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/myDepartmentViewController.o0#
+
+CCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDeparts.xib
+r0
+
+CCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.xib
+s315736968.651810
+e315736970.010989
+r1
+xCompileXIB
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.xib
+lSLF07#2@47"CompileXIB Classes/allDepartsViewController.xib315736968#315736970#0(0"0(0#0#81"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.xib8618590784#624"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/allDepartsViewController.nib /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/allDepartsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.xib
+s315742450.912336
+e315742451.612973
+r1
+xCompileXIB
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.xib
+lSLF07#2@32"CompileXIB Classes/fbWebView.xib315742450#315742451#0(0"0(0#0#66"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.xib8620386368#594"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/fbWebView.nib /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/fbWebView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.xib
+s315662025.665724
+e315662026.336214
+r1
+xCompileXIB
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.xib
+lSLF07#2@49"CompileXIB Classes/myDepartmentViewController.xib315662025#315662026#0(0"0(0#0#83"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.xib8610353984#628"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/myDepartmentViewController.nib /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myDepartmentViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/MainWindow.xib
+s315662022.373764
+e315662025.665473
+r1
+xCompileXIB
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib315662022#315662025#0(0"0(0#0#59"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/MainWindow.xib8637725088#588"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/MainWindow.nib /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/allDepartmentsViewController.xib
+s315662025.897018
+e315662026.531351
+r1
+xCompileXIB
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/allDepartmentsViewController.xib
+lSLF07#2@43"CompileXIB allDepartmentsViewController.xib315662025#315662026#0(0"0(0#0#77"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/allDepartmentsViewController.xib8640557920#624"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/allDepartmentsViewController.nib /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/allDepartmentsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemapViewController.xib
+s315740720.380389
+e315740720.974223
+r1
+xCompileXIB
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemapViewController.xib
+lSLF07#2@36"CompileXIB facemapViewController.xib315740720#315740720#0(0"0(0#0#70"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemapViewController.xib8618461408#610"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemapViewController.nib /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/facemap.app/facemap.png facemap.png
+s315662026.336312
+e315662026.358510
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/facemap.app/facemap.png
+xfacemap.png
+lSLF07#2@16"Copy facemap.png315662026#315662026#0(0"0(0#0#56"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemap.png8636520448#487"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemap.png /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app0#
+
+CCpResource build/Debug-iphonesimulator/facemap.app/myclass.gif Classes/myclass.gif
+s315662025.893374
+e315662026.012051
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/facemap.app/myclass.gif
+xClasses/myclass.gif
+lSLF07#2@24"Copy Classes/myclass.gif315662025#315662026#0(0"0(0#0#64"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myclass.gif8607113408#495"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/myclass.gif /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app0#
+
+CCpResource build/Debug-iphonesimulator/facemap.app/school.jpg Classes/school.jpg
+s315662025.895243
+e315662025.994387
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/facemap.app/school.jpg
+xClasses/school.jpg
+lSLF07#2@23"Copy Classes/school.jpg315662025#315662025#0(0"0(0#0#63"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/school.jpg8641523136#494"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/Classes/school.jpg /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app0#
+
+CGenerateDSYMFile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app.dSYM /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap
+s315891013.204607
+e315891013.369114
+r1
+xGenerateDSYMFile
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app.dSYM
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/facemap.app.dSYM build/Debug-iphonesimulator/facemap.app/facemap315891013#315891013#0(0"0(0#0#92"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap8624034432#401"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap -o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app.dSYM0#
+
+CLd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap normal i386
+s315891013.049566
+e315891013.204511
+r1
+xLd
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap
+xnormal
+xi386
+lSLF07#2@97"Link /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap315891013#315891013#0(0"0(0#0#0"8616612928#930"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator -F/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator -filelist /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/Objects-normal/i386/facemap.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/facemap0#
+
+CProcessInfoPlistFile /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/Info.plist facemap-Info.plist
+s315662022.345468
+e315662022.373672
+r1
+xProcessInfoPlistFile
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/Info.plist
+xfacemap-Info.plist
+lSLF07#2@26"Process facemap-Info.plist315662022#315662022#0(0"0(0#0#63"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemap-Info.plist32932993188560964#497"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility facemap-Info.plist -genpkginfo /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app/Info.plist0#
+
+CProcessPCH /var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch.gch facemap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s315662026.531478
+e315662029.069623
+r1
+xProcessPCH
+x/var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch.gch
+xfacemap_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile facemap_Prefix.pch315662026#315662029#0(0"0(0#0#63"/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemap_Prefix.pch8628053984#1866"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-generated-files.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-own-target-headers.hmap -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-all-target-headers.hmap -iquote /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/facemap-project-headers.hmap -F/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/include -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources/i386 -I/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/facemap.build/Debug-iphonesimulator/facemap.build/DerivedSources -c /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/facemap_Prefix.pch -o /var/folders/zs/zs0F3pWQFbGZYBm9AugxhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/facemap_Prefix-bparhodklyoacbbumhdukeatrmph/facemap_Prefix.pch.gch0#
+
+CTouch /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app
+s315891013.369209
+e315891013.415751
+r1
+xTouch
+x/Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app
+lSLF07#2@90"Touch /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app315891013#315891013#0(0"0(0#0#0"8618360960#290"    cd /Users/zerodie/gitHub/FacemapNCCU-iPhone/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zerodie/gitHub/FacemapNCCU-iPhone/src/build/Debug-iphonesimulator/facemap.app0#
+

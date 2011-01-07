@@ -10,8 +10,14 @@
 
 
 @interface myDepartmentViewController : UITableViewController {
-
+	NSMutableArray *listOfMems;
+	NSString *Department;
+	
 }
 
 - (id)initWithDepart:(NSString *)department;
+
+@property (nonatomic, retain) NSMutableArray *listOfMems;
+@property (nonatomic, retain) NSString *Department;
+
 @end

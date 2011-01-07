@@ -19,9 +19,11 @@
 		4B18788C12C8F64B005F2260 /* myDepartmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B18788A12C8F64B005F2260 /* myDepartmentViewController.xib */; };
 		4B1878C212C90326005F2260 /* myclass.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4B1878C112C90326005F2260 /* myclass.gif */; };
 		4B1878D912C9076F005F2260 /* school.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B1878D812C9076F005F2260 /* school.jpg */; };
-		4B18792012C91F30005F2260 /* allDepartmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B18791E12C91F30005F2260 /* allDepartmentsViewController.m */; };
-		4B18792112C91F30005F2260 /* allDepartmentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B18791F12C91F30005F2260 /* allDepartmentsViewController.xib */; };
 		FB63F8EB12CB55E000008E4A /* facemap.png in Resources */ = {isa = PBXBuildFile; fileRef = FB63F8EA12CB55E000008E4A /* facemap.png */; };
+		FBF516AB12D1C2E000AC3C8E /* allDepartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF516A912D1C2E000AC3C8E /* allDepartsViewController.m */; };
+		FBF516AC12D1C2E000AC3C8E /* allDepartsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF516AA12D1C2E000AC3C8E /* allDepartsViewController.xib */; };
+		FBF5174612D1D83400AC3C8E /* fbWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF5174412D1D83400AC3C8E /* fbWebView.m */; };
+		FBF5174712D1D83400AC3C8E /* fbWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF5174512D1D83400AC3C8E /* fbWebView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,11 +44,14 @@
 		4B18788A12C8F64B005F2260 /* myDepartmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = myDepartmentViewController.xib; path = Classes/myDepartmentViewController.xib; sourceTree = "<group>"; };
 		4B1878C112C90326005F2260 /* myclass.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = myclass.gif; sourceTree = "<group>"; };
 		4B1878D812C9076F005F2260 /* school.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = school.jpg; sourceTree = "<group>"; };
-		4B18791D12C91F30005F2260 /* allDepartmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = allDepartmentsViewController.h; path = ../allDepartmentsViewController.h; sourceTree = "<group>"; };
-		4B18791E12C91F30005F2260 /* allDepartmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = allDepartmentsViewController.m; path = ../allDepartmentsViewController.m; sourceTree = "<group>"; };
-		4B18791F12C91F30005F2260 /* allDepartmentsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = allDepartmentsViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* facemap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "facemap-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		FB63F8EA12CB55E000008E4A /* facemap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facemap.png; sourceTree = SOURCE_ROOT; };
+		FBF516A812D1C2E000AC3C8E /* allDepartsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allDepartsViewController.h; sourceTree = "<group>"; };
+		FBF516A912D1C2E000AC3C8E /* allDepartsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allDepartsViewController.m; sourceTree = "<group>"; };
+		FBF516AA12D1C2E000AC3C8E /* allDepartsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = allDepartsViewController.xib; path = Classes/allDepartsViewController.xib; sourceTree = "<group>"; };
+		FBF5174312D1D83400AC3C8E /* fbWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fbWebView.h; sourceTree = "<group>"; };
+		FBF5174412D1D83400AC3C8E /* fbWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fbWebView.m; sourceTree = "<group>"; };
+		FBF5174512D1D83400AC3C8E /* fbWebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fbWebView.xib; path = Classes/fbWebView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +77,10 @@
 				28D7ACF70DDB3853001CB0EB /* facemapViewController.m */,
 				4B18788812C8F64B005F2260 /* myDepartmentViewController.h */,
 				4B18788912C8F64B005F2260 /* myDepartmentViewController.m */,
-				4B18791D12C91F30005F2260 /* allDepartmentsViewController.h */,
-				4B18791E12C91F30005F2260 /* allDepartmentsViewController.m */,
+				FBF516A812D1C2E000AC3C8E /* allDepartsViewController.h */,
+				FBF516A912D1C2E000AC3C8E /* allDepartsViewController.m */,
+				FBF5174312D1D83400AC3C8E /* fbWebView.h */,
+				FBF5174412D1D83400AC3C8E /* fbWebView.m */,
 				4B1878C112C90326005F2260 /* myclass.gif */,
 				FB63F8EA12CB55E000008E4A /* facemap.png */,
 				4B1878D812C9076F005F2260 /* school.jpg */,
@@ -114,8 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				2899E5210DE3E06400AC0155 /* facemapViewController.xib */,
+				FBF516AA12D1C2E000AC3C8E /* allDepartsViewController.xib */,
 				4B18788A12C8F64B005F2260 /* myDepartmentViewController.xib */,
-				4B18791F12C91F30005F2260 /* allDepartmentsViewController.xib */,
+				FBF5174512D1D83400AC3C8E /* fbWebView.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* facemap-Info.plist */,
 			);
@@ -186,8 +194,9 @@
 				4B18788C12C8F64B005F2260 /* myDepartmentViewController.xib in Resources */,
 				4B1878C212C90326005F2260 /* myclass.gif in Resources */,
 				4B1878D912C9076F005F2260 /* school.jpg in Resources */,
-				4B18792112C91F30005F2260 /* allDepartmentsViewController.xib in Resources */,
 				FB63F8EB12CB55E000008E4A /* facemap.png in Resources */,
+				FBF516AC12D1C2E000AC3C8E /* allDepartsViewController.xib in Resources */,
+				FBF5174712D1D83400AC3C8E /* fbWebView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +211,8 @@
 				1D3623260D0F684500981E51 /* facemapAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* facemapViewController.m in Sources */,
 				4B18788B12C8F64B005F2260 /* myDepartmentViewController.m in Sources */,
-				4B18792012C91F30005F2260 /* allDepartmentsViewController.m in Sources */,
+				FBF516AB12D1C2E000AC3C8E /* allDepartsViewController.m in Sources */,
+				FBF5174612D1D83400AC3C8E /* fbWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
