@@ -10,17 +10,62 @@
 
 
 @implementation fbWebView
+@synthesize myWebView;
 
-
-- (id)initWithName:(NSString *)name
+- (id)initWithName:(NSString *)name url:(NSString *)fburl
 {
     if (self = [self initWithNibName:@"fbWebView" bundle:nil]) {
         // Custom initialization
         self.title = name;
         //self.text = someText;
     }
+	
+	
+	CGRect bounds = [ [ UIScreen mainScreen ] applicationFrame ];
+	//scrollable webview
+	UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:bounds];
+	//Our webView has now been initialized with the bounds of our scrollView.  
+	//The next thing we do is load our content from our webpage:
+	myWebView = [ [ UIWebView alloc ] initWithFrame:[scrollView bounds]];
+	
+	 //建立一個NSURLRequest物件
+	NSURL *url = [NSURL URLWithString:fburl];
+	NSURLRequest *request = [ NSURLRequest requestWithURL:url ];
+	//讓 UIWebView 連上NSURLRequest 物件所設定好的網址
+	[ myWebView loadRequest: request ];
+	
+	//we set it to the size of our webview that we’ve loaded
+	scrollView.contentSize = [myWebView bounds].size;
+	//add our webview to our scrollview:
+	[scrollView addSubview:myWebView];
+	
+	//self.view = scrollView;
+	[self.view addSubview:scrollView];
+	
+	
+	//設定網址字串
+    //NSString *urlAddress = @"http://ithelp.ithome.com.tw/question/10056941";
+    //NSString *urlAddress = fburl;
+    
+    //建立一個NSURL物件
+    //NSURL *url = [NSURL URLWithString:urlAddress];
+    
+   
+    //建立一個UIWebView 物件
+    //myWebView = [[UIWebView alloc] initWithFrame:[self.view frame]];
+    
+    //讓 UIWebView 連上NSURLRequest 物件所設定好的網址
+    //[myWebView loadRequest:requestObj];
+    
+    //將 UIWebVeiw 物件加入到現有的 View 上
+    //[self.view addSubview:myWebView];
+    
+    //釋放 UIWebView佔用的記憶體
+    //[myWebView release];
+	
     return self;
 }
+
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -63,6 +108,7 @@
 
 
 - (void)dealloc {
+	//[myWebView release];
     [super dealloc];
 }
 

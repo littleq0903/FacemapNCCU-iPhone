@@ -11,6 +11,11 @@
 
 @interface fbWebView : UIViewController {
 
+	 IBOutlet UIWebView *myWebView;        
+	
 }
+
+@property (nonatomic,retain) UIWebView *myWebView;
+
 
 @end

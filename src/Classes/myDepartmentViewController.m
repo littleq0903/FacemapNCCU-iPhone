@@ -181,22 +181,12 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
-	/*
-	allDepartsViewController *allDepartsVC = [[allDepartsViewController alloc] initWithDepart:@"李家玲"];
-    [self.navigationController pushViewController:allDepartsVC animated:NO];
-    [allDepartsVC release];
-	*/
+
 	NSString *user_name=[[tableView cellForRowAtIndexPath:indexPath] text];
 	
-	fbWebView *fbwb = [[fbWebView alloc] initWithName:user_name];
+	NSString *urlAddress = @"http://www.yahoo.com.tw";
+	
+	fbWebView *fbwb = [[fbWebView alloc] initWithName:user_name url:urlAddress];
     [self.navigationController pushViewController:fbwb animated:NO];
     [fbwb release];
 	[user_name release];
